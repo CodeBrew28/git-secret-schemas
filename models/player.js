@@ -1,4 +1,4 @@
-const { Schema, SchemaTypes } = require('mongoose');
+const { Schema } = require('mongoose');
 
 const PlayerSchema = new Schema({
     email: { type: String, required: true, unique: true }
